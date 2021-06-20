@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem;
+}
+header .title{
+    font-size: 3rem;
+    color: white;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    margin-left: .7rem;
+    padding: .5rem 2rem;
+    border-radius: .7rem;
+    color: white;
+}
+header .navbar a:active,
+header .navbar a:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+#menu{
+    font-size: 3rem;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    background-image: url("https://images.pexels.com/photos/1629212/pexels-photo-1629212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+.home .container h1{
+    font-size: 8rem;
+    font-family: "Baloo Tammudu 2", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #9d0208;
+    padding-top: 17rem;
+    margin-bottom: 0;
+}
+.home .container #form{
+    margin-top: 0;
+    margin-left: 33%;
+    height: auto;
+    width: 50rem;
+    background-color:transparent;
+    text-align: center;
+}
+.home .container #form #input{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    width: 50rem;
+    border-radius: 3rem;
+    padding: 2px 2px 2px 2px;
+    margin: auto;
+}
+.home .container #form #input::placeholder{
+    color: rgb(133, 138, 138);
+    text-align: center;
+}
+.home .container #form #todo{
+    background-color: #dda15e;
+    border-radius: 3rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.home .container #form #todo li{
+    padding: 2px 2px;
+    border-top: 1px solid black;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+.home button{
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: teal;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 66rem;;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="count.css">
+    <title>Maddy-doer</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="title">maddy-doer</a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="count.html">Count-Down Timer</a>
+            <a href="todo.html">To-Do</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="box days">
+                <span>Days</span>
+                <p class="text" id="day">0</p>
+            </div>
+            <div class="box hrs">
+                <span>Hours</span>
+                <p class="text" id="hour">0</p>
+            </div>
+            <div class="box minute">
+                <span>Minutes</span>
+                <p class="text" id="min">0</p>
+            </div>
+            <div class="box second">
+                <span>Seconds</span>
+                <p class="text" id="sec">0</p>
+            </div>
+        </div>
+        <input type="date" id="date" value="">
+        <h2>Start your count-down</h2>
+        <div class="mybtn">
+            <button onclick="Count()">START</button>
+            <button onclick="Refresh()">REFRESH</button>
+        </div>
+    </section>
+    <script src="count.js"></script>
+</body>
+</html>

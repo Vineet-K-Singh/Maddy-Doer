@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem;
+}
+header .title{
+    font-size: 3rem;
+    color: white;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    margin-left: .7rem;
+    padding: .5rem 2rem;
+    border-radius: .7rem;
+    color: white;
+}
+header .navbar a:active,
+header .navbar a:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+#menu{
+    font-size: 3rem;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+
+
+.home{
+    background-image: url("https://images.pexels.com/photos/2304423/pexels-photo-2304423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+.home .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home .container .box{
+    margin-top: 18rem;
+    padding: 5rem;
+    text-align: center;
+}
+.home .container .box span{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.home .container .box .text{
+    font-size: 8rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.home #date{
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+    width: 30rem;
+    height: 3.5rem;
+    margin-left: 53rem;
+}
+.home h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 53.5rem;
+}
+.home .mybtn{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 59rem;
+}
+
+.home .mybtn button{
+    font-weight: bold;
+    background-color: teal;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1.5rem;
+    margin-right: 5rem;;
+}

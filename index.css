@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem;
+}
+header .title{
+    font-size: 3rem;
+    color: white;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    margin-left: .7rem;
+    padding: .5rem 2rem;
+    border-radius: .7rem;
+    color: white;
+}
+header .navbar a:active,
+header .navbar a:hover{
+    color: white;
+    background-color: blue;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+#menu{
+    font-size: 3rem;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem 9%;
+    padding-top: 8rem;
+}
+.home{
+    background: url("https://images.pexels.com/photos/1424745/pexels-photo-1424745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 22rem;
+    padding-left: 10rem;
+}
+.home h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+.home p{
+    font-size: 3rem;
+    font-weight: normal;
+}
